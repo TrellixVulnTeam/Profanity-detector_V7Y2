@@ -112,11 +112,9 @@ else upload via s3 bucket.
 5.  scikit-learn==0.23.2 [custom]
 
 ### Initial steps:
-step 1 : java -jar ssogenerator-2.1.0.jar  [download the ssogenerator]
-step 2 : cd
-step 3 : cd .aws [location where you have installed ]
-step 4 : open -a TextEdit credentials [note the credentials for the account you work on]
-step 5 : aws configure [answer the credentials from step 4]
+step 1 : cd .aws [location where you have installed ]
+step 2 : open -a TextEdit credentials [note the credentials for the account you work on]
+step 3 : aws configure [answer the credentials from step 4]
 
 ### Library Preparation:
 prerequiste : Docker|conda|internet.
